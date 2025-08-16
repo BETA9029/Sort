@@ -1,0 +1,19 @@
+{
+  "name": "sort-tool",
+  "version": "1.0.0",
+  "description": "A tool to sort CSV files.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.8",
+    "inquirer": "^12.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
